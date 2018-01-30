@@ -288,7 +288,7 @@ void loop()
     }
     /////////////////////////////////////////////////////////////////////
    /* if (counter == 2760) {//46 minute
-      V1 = voltage * devider;
+      V1 = (voltage * devider);
       //Serial.println ("************************");
       line();
       Serial.print ("V1 battery read =      ");
@@ -308,7 +308,7 @@ void loop()
       Print();
     }
    /* if (counter == 3360) {//56 minute
-      V2 = voltage * devider;
+      V2 = (voltage * devider);
       //Serial.println ("************************");
       line();
       Serial.print ("V2 battery read =      ");
